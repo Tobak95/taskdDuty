@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../../src/assets/logo.png";
 import profile from "../../src/assets/profile.png"
 
+
 const Navbar = () => {
   const links = [
     { title: "New Task", path: "#" },
@@ -22,7 +23,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex items-center text-[#292929] text-[22px] font-[500] gap-5">
+        <div className="flex items-center text-[#292929] text-[22px] font-semibold gap-5">
           {links.map((link, index) => {
             return (
               <a key={index} href={link.path}>
