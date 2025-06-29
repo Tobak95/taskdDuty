@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.layout {
+  @apply lg:max-w-[1082.56px] mx-auto
+}
+
+h1,
+h2,
+p,
+a {
+  font-family: "Signika Negative";
+}

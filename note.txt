@@ -1,0 +1,15 @@
+1. i opened my terminal then created
+npm create vite@latestnpm install tailwindcss @tailwindcss/vite
+installed npm install tailwindcss @tailwindcss/vite
+
+to fully configure the styling tools, we need to import it inside the src, index.css as this "@import "tailwindcss"; and finally at the vite.config
+
+
+effect.
+suspense loader - we have to install react-spinners to pick any spinners to load our Pages
+
+for router: import react router dom
+
+
+created Component folder in my explorer
+created Pages folder in my explorer
