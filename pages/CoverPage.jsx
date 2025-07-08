@@ -38,14 +38,14 @@ const CoverPage = () => {
     <div>
       <Navbar />
 
-      <div className="layout flex justify-between mt-20">
-        <div className="w-[535px] h-[369px]">
-          <h1 className="text-[50px] w-[470px] font-Signika Negative font-bold ">
+      <div className="layout flex flex-col-reverse lg:flex-row justify-between mt-20">
+        <div className=" h-[369px] p-4">
+          <h1 className="max-w-[470px] w-full text-[40px] lg:text-[50px] font-Signika Negative font-bold ">
             Manage your Tasks on{" "}
             <span className="text-[#974FD0]">TaskDuty</span>
           </h1>
 
-          <p className="text-[24px] text-[#737171] font-[Signika Negative]">
+          <p className="max-w-[535px] w-full text-[22px] lg:text-[24px] text-[#737171] font-[Signika Negative]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non tellus,
             sapien, morbi ante nunc euismod ac felis ac. Massa et, at platea
             tempus duis non eget. Hendrerit tortor fermentum bibendum mi nisl
@@ -61,7 +61,9 @@ const CoverPage = () => {
           <img
             src={images[currentImage].src}
             alt={images[currentImage].alt}
-            className={`shadow-xl w-[418.56px] h-[396.2px] transition-opacity duration-500 ${fade ? 'opacity-100' : 'opacity-0'}`}
+            className={`shadow-xl max-w-[418.56px] w-full h-[396.2px] transition-opacity duration-500 ${
+              fade ? "opacity-100" : "opacity-0"
+            }`}
           />
         </div>
       </div>

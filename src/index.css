@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .layout {
-  @apply lg:max-w-[1082.56px] mx-auto
+  @apply max-w-[1082.56px] w-full mx-auto
 }
 
 h1,
