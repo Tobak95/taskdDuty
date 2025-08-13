@@ -4,6 +4,7 @@ import Navbar from "../component/layout/Navbar";
 import couples from "../src/assets/couples.png";
 import panada from "../src/assets/panada.png";
 import bro from "../src/assets/bro.png";
+import { Link } from "react-router-dom";
 
 const CoverPage = () => {
   const images = [
@@ -52,9 +53,11 @@ const CoverPage = () => {
             semper porttitor. Nec accumsan.
           </p>
 
-          <button className="bg-[#974FD0] text-white mt-5 w-[201px] h-[50px] text-[24px] rounded-[8px] font-[500]">
-            Go to My Tasks
-          </button>
+          <Link to={"/my-task"}>
+            <button className="bg-[#974FD0] text-white mt-5 w-[201px] h-[50px] text-[24px] rounded-[8px] font-[500]">
+              Go to My Tasks
+            </button>
+          </Link>
         </div>
 
         <div>

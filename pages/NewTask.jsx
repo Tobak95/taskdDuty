@@ -76,8 +76,8 @@ const NewTask = () => {
               className="w-[50.5px] h-[50px] bg-cover"
             />
           </div>
-          <div className="w-[191px]">
-            <h1 className="text-[50px]">Edit Task</h1>
+          <div className="w-[250px]">
+            <h1 className="text-[50px]">New Task</h1>
           </div>
         </div>
 
